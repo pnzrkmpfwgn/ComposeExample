@@ -69,6 +69,7 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0-rc02")
     implementation ("androidx.navigation:navigation-compose:2.7.6")
     implementation ("androidx.constraintlayout:constraintlayout-compose:1.1.0-alpha13")
+    implementation("androidx.palette:palette-ktx:1.0.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -91,11 +92,8 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
 
     implementation("io.coil-kt:coil:1.1.1")
-    implementation("com.google.accompanist:accompanist-coil:0.7.0")
+    implementation("io.coil-kt:coil-compose:1.3.2")
 
     implementation ("com.google.dagger:hilt-android:2.33-beta")
-    implementation ("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
     implementation ("androidx.hilt:hilt-navigation-compose:1.2.0-alpha01")
-
-
 }
